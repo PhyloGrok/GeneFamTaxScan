@@ -3,5 +3,5 @@ Scripts to examine reasons for absence of genes, whether because of assembly err
 
 
 ##
-![GeneFamTaxScan](https://raw.githubusercontent.com/NCBI-Hackathons/GeneFamTaxScan/master/images/GeneFamTaxScan.png?sanitize=true)
+![GeneFamTaxScan](https://raw.githubusercontent.com/NCBI-Hackathons/GeneFamTaxScan/master/Images/GeneFamTaxScan.png?sanitize=true)
 ##
