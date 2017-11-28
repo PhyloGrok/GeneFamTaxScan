@@ -1,3 +1,5 @@
+##Thanks to Jan Buchmann for helping with bash script.
+
 #!/bin/bash
 outf="drosha.fasta"
 echo -n "" > $outf
