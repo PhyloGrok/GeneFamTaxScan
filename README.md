@@ -9,7 +9,11 @@ Scripts to examine reasons for absence of genes, whether because of assembly err
 
 Retrieve Records for Taxonomy of Interest with Assembly DB data, return RefSeq Genome file path if present
 ```
-esearch -db genome -query txidXXX[Organism:exp] | elink -target assembly | esummary | xtract -pattern DocumentSummary -element Organism FtpPath_RefSeq
+$esearch -db genome -query txidXXX[Organism:exp] | elink -target assembly | esummary | xtract -pattern DocumentSummary -element Organism FtpPath_RefSeq
+```
+Return RefSeq .gz files:
+```
+$ wget `esearch -db genome -query txidXXX[Organism:exp] | elink -target assembly | esummary | xtract -pattern DocumentSummary -element FtpPath_RefSeq | awk -F"/" '{print $0"/"$NF"_genomic.fna.gz"}'`
 ```
 
 |Organism|RefSeq Assembly|
