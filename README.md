@@ -14,7 +14,7 @@ Workflow:
 
 3. Export a .csv formatted table of Assembly stats, Import to R, calculate averages and SDs, readout box-whisker plots.
 
-4. Retrieve Protein .fasta given GeneIDs associated with RefSeq genome.
+4. Retrieve Protein .fasta given GeneIDs associated with RefSeq genome. (use [ProtFastaFromGene.md](../master/ProtFastaFromGene.md))
 
 5. Export .csv formatted table of Gene and Protein sequence stats, calculate averages and SDs, readout box-whisker plots.
 
