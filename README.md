@@ -18,3 +18,6 @@ Workflow:
 
 5. Export .csv formatted table of Gene and Protein sequence stats, calculate averages and SDs, readout box-whisker plots.
 
+6. Make BLAST databases from Gene .fastas, RefSeq Protein .fastas, RefSeq Assembly .gz.
+
+7. Retrieve *Non-RefSeq* Genome, Protein accessions from Taxonomy subset of interest.  Compare meta-stats to "Reference" sequence SD values, find sequences outside Reference ranges, or with divergent BLAST results.
