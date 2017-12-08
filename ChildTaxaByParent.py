@@ -1,4 +1,4 @@
-##Command line: "python3.6 Taxpull.py > taxids"
+##Command line: "python3.6 ChildTaxaByParent.py > taxids"
 ##Requires ete3
 
 ##Taxpull.py
