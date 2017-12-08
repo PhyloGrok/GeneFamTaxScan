@@ -1,4 +1,4 @@
-##Thanks to Jan Buchmann for helping with bash script.
+##Thanks to Jan Buchmann for bash script lesson.
 
 #!/bin/bash
 outf="drosha.fasta"
