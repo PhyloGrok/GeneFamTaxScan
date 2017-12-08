@@ -6,7 +6,7 @@ Scripts for evaluating annotation errors for user-selected gene families, taxono
 ![GeneFamTaxScan](https://raw.githubusercontent.com/NCBI-Hackathons/GeneFamTaxScan/master/Images/GeneFamTaxScan01.png?sanitize=true)
 ##
 
-Workflow:
+Steps:
 
 1. Retrieve RefSeq genome stats and .gz files for taxa of interest. (see [RefSeqGenomeByTax.md](../master/RefSeqGenomeByTax.md))
 2. Retrieve DNA gene sequence .fasta given a Homologene ID by elink -> gene | elink -> Assembly | efetch -db Assembly -chr_start -chr_stop. (use [homolog2fasta.sh](../master/homolog2fasta.sh))
