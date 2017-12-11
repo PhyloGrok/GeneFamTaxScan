@@ -4,3 +4,4 @@
 |  |  |  |
 |Contig Count| ![GeneFamTaxScan](../master/Images/ContigCount_Primates.png?sanitize=true) | ![GeneFamTaxScan](../master/Images/ContigCount_Rodents.png?sanitize=true)  | ![GeneFamTaxScan](../master/Images/ContigCount_Insects.png?sanitize=true)  |
 
+*Graphs were exported from R-Studio running Windows 7, using the R-code [AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)*
