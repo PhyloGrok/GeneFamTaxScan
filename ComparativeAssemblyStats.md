@@ -1,2 +1,0 @@
-|Primates| Rodents| Insects|
-|
