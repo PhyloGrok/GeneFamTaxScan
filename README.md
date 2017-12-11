@@ -8,7 +8,7 @@ Scripts for evaluating annotation errors for user-selected gene families, taxono
 
 Steps:
 
-1. Retrieve RefSeq genome stats and .gz files for taxa of interest. (see [RefSeqGenomeByTax.md](../master/RefSeqGenomeByTax.md))
+1. Retrieve RefSeq genome stats and .gz files for taxa of interest. (see [RefSeqAssemblyFastaByTax.md](../master/RefSeqAssemblyFastaByTax.md))
 2. Retrieve DNA gene sequence .fasta given a Homologene ID by elink -> gene | elink -> Assembly | efetch -db Assembly -chr_start -chr_stop. (use [homolog2fasta.sh](../master/homolog2fasta.sh))
 3. Export a .csv formatted table of Assembly stats (see [AssemblyStatsFromTaxa.md](../master/AssemblyStatsFromTaxa.md)) -> ([PrimatesAssemblyStats.csv](../master/PrimatesAssemblyStats.csv)), Import to R, calculate averages and SDs, readout box-whisker plots.
 4. Retrieve Protein .fasta given GeneIDs associated with RefSeq genome. (use [ProtFastaFromGene.md](../master/ProtFastaFromGene.md))
