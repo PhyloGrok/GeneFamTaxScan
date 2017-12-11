@@ -3,7 +3,7 @@ Scripts for evaluating annotation errors for user-selected gene families, taxono
 
 
 ##
-![GeneFamTaxScan](https://raw.githubusercontent.com/NCBI-Hackathons/GeneFamTaxScan/master/Images/GeneFamTaxScan01.png?sanitize=true)
+![GeneFamTaxScan](../master/Images/GeneFamTaxScan01.png?sanitize=true)
 ##
 
 # Steps:
