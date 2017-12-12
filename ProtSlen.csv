@@ -1,11 +1,27 @@
-Caption,Title,Slen
-NP_001123621,ribonuclease 3 [Mus musculus],1373
-NP_037367,ribonuclease 3 isoform 1 [Homo sapiens],1374
-NP_492599,Ribonuclease 3 [Caenorhabditis elegans],1086
-NP_001101125,ribonuclease 3 [Rattus norvegicus],1373
-NP_001107152,ribonuclease 3 [Xenopus tropicalis],1325
-NP_477436,drosha [Drosophila melanogaster],1327
-NP_001103942,ribonuclease 3 [Danio rerio],1289
-XP_001157472,PREDICTED: ribonuclease 3 isoform X1 [Pan troglodytes],1374
-NP_001006379,ribonuclease 3 [Gallus gallus],1336
-XP_555381,AGAP008087-PA [Anopheles gambiae str. PEST],1404
+Caption,Title,SourceDb,Slen
+NP_001123621,ribonuclease 3 [Mus musculus],refseq,1373
+NP_081075,ribonuclease 3 [Mus musculus],refseq,1373
+NP_001093882,ribonuclease 3 isoform 2 [Homo sapiens],refseq,1337
+NP_037367,ribonuclease 3 isoform 1 [Homo sapiens],refseq,1374
+XP_022622936,ribonuclease 3 [Seriola dumerili],refseq,1354
+XP_022521767,ribonuclease 3 [Astyanax mexicanus],refseq,1315
+XP_022521766,ribonuclease 3 [Astyanax mexicanus],refseq,1315
+NP_001101125,ribonuclease 3 [Rattus norvegicus],refseq,1373
+XP_022420478,ribonuclease 3 isoform X6 [Delphinapterus leucas],refseq,1336
+XP_022420477,ribonuclease 3 isoform X5 [Delphinapterus leucas],refseq,1346
+XP_022420476,ribonuclease 3 isoform X4 [Delphinapterus leucas],refseq,1373
+XP_022420475,ribonuclease 3 isoform X3 [Delphinapterus leucas],refseq,1377
+XP_022420474,ribonuclease 3 isoform X2 [Delphinapterus leucas],refseq,1383
+XP_022420473,ribonuclease 3 isoform X1 [Delphinapterus leucas],refseq,1414
+XP_022420471,ribonuclease 3 isoform X1 [Delphinapterus leucas],refseq,1414
+XP_022420470,ribonuclease 3 isoform X1 [Delphinapterus leucas],refseq,1414
+XP_022348844,ribonuclease 3 isoform X4 [Enhydra lutris kenyoni],refseq,1336
+XP_022348843,ribonuclease 3 isoform X3 [Enhydra lutris kenyoni],refseq,1342
+XP_022348842,ribonuclease 3 isoform X2 [Enhydra lutris kenyoni],refseq,1365
+XP_022348841,ribonuclease 3 isoform X1 [Enhydra lutris kenyoni],refseq,1373
+XP_009206471,ribonuclease 3 isoform X7 [Papio anubis],refseq,1337
+XP_009206470,ribonuclease 3 isoform X6 [Papio anubis],refseq,1345
+XP_009206469,ribonuclease 3 isoform X4 [Papio anubis],refseq,1376
+XP_009206468,ribonuclease 3 isoform X3 [Papio anubis],refseq,1382
+XP_009206467,ribonuclease 3 isoform X2 [Papio anubis],refseq,1405
+XP_009206466,ribonuclease 3 isoform X1 [Papio anubis],refseq,1413
