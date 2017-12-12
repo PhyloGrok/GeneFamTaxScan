@@ -8,9 +8,9 @@ Scripts for evaluating annotation errors for user-selected gene families, taxono
 
 # Steps:
 
-1. Retrieve .csv formatted table of Assembly stats (see [AssemblyStatsFromTaxa.sh](../master/AssemblyStatsFromTaxa.sh)) -> ([AssemblyStats.csv](../master/AssemblyStats.csv)), Import to R, calculate averages and SDs, readout box-whisker plots.
-2. Retrieve .csv formatted table of Protein sequence length (and other stats), calculate averages and SDs, readout box-whisker plots (see [ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh)) -> ([ProtStats.csv](../master/ProtStats.csv))
-  * Make a comparative report - between and within taxon parent groups, RefSeq vs non-RefSeqs. (see R script [AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R), and prelim Boxplots [AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md))
+1. Retrieve .csv formatted table of Assembly stats ([AssemblyStatsFromTaxa.sh](../master/AssemblyStatsFromTaxa.sh)) -> ([AssemblyStats.csv](../master/AssemblyStats.csv)) -> ([AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)), and prelim Boxplots ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md)).
+2. Retrieve .csv formatted table of Protein sequence length (and other stats), calculate averages and SDs, readout box-whisker plots (see [ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh)) -> ([ProtStats.csv](../master/ProtStats.csv)) -> ([ProtStatsCompare.R](../master/ProtStatsCompare.R))
+  * Make a comparative report - between and within taxon parent groups, RefSeq vs non-RefSeqs, Assembly vs. Protein stats. (see R script )
 3. Retrieve Gene(DNA) .fasta given a Homologene ID using Assembly-associated chr_start,chr_stop positions. (use [GeneFastaFromHomlogene.sh](../master/GeneFastaFromHomologene.sh))
 4. Retrieve Protein .fasta given GeneIDs associated with RefSeq genome. (use [ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
 5. Retrieve RefSeq Assembly .gz files for taxa of interest. (see [AssemblyRefseqFastasByTax.md](../master/AssemblyRefseqFastasByTax.md))
