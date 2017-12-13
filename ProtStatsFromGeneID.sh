@@ -4,4 +4,7 @@
 
 for i in `esearch -db gene -query "ortholog_gene_29102[group]"  | elink -target protein | esummary | xtract -pattern DocumentSummary -element Caption`; do efetch -db protein -id $i -format docsum | xtract -pattern DocumentSummary -element Caption Title SourceDb Slen | tr "\t" ";"; done
 
+##Get Rodent Specific Drosha ortholog data
+#for i in `esearch -db gene -query "ortholog_gene_29102[group] AND txid9989[Orgn]"  | elink -target protein | esummary | xtract -pattern DocumentSummary -element Caption`; do efetch -db protein -id $i -format docsum | xtract -pattern DocumentSummary -element Caption Title SourceDb Slen | tr "\t" ";"; done
+
 ##Will NOT work for inveretbrate taxa - orthology groups only for Inverts.  BLAST implementation may be necessary.
