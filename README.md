@@ -9,7 +9,7 @@ Scripts for evaluating annotation errors for user-selected gene families, taxono
 # Steps:
 
 1. Retrieve table (.csv) of Assembly stats from a specified Higher Taxa, obtain basic stats with R: ([AssemblyStatsFromTaxa.sh](../master/AssemblyStatsFromTaxa.sh)) -> ([AssemblyStats.csv](../master/AssemblyStats.csv)) -> Stats analysis ([AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)) -> prelim Boxplots ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md)).
-2. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh)) -> ([ProtStats.csv](../master/ProtStats.csv)) -> Stats analysis ([ProtStatsCompare.R](../master/ProtStatsCompare.R)) -> ([ProtStatsResults.md](../master/ProtStatsResults.md)).
+2. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh)) -> ([ProtStats.csv](../master/ProtStats.csv)) -> Stats analysis (ANOVA) ([ProtStatsCompare.R](../master/ProtStatsCompare.R)) -> ANOVA Results([ProtStatsResults.md](../master/ProtStatsResults.md)).
 3. Retrieve Gene .fastas for a given HomologeneID, by retreiving sequence using chr_start,chr_stop positions. (use [GeneFastaFromHomlogene.sh](../master/GeneFastaFromHomologene.sh))
 4. Retrieve Protein .fastas of given GeneIDs with associated RefSeq genomes. (use [ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
 5. Retrieve RefSeq Assembly .gz files for taxa of interest. (see [AssemblyRefseqFastasByTax.sh](../master/AssemblyRefseqFastasByTax.sh))
