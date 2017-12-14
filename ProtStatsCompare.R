@@ -33,3 +33,9 @@ confint(total.mod1)
 total.mod = data.frame(Fitted = fitted(total.mod1), Residuals = resid(total.mod1), Treatment = total$Tax)
 
 ggplot(total.mod, aes(Fitted, Residuals, colour = Treatment)) + geom_point()
+
+trimmed_stats <- ddply(subset(total.df, abs(Slen - mean(Slen)) > sd(Slen)), .(Caption))
+
+write.csv(trimmed_stats, file = "Abnormal_Droshas.csv",row.names=FALSE)
+
+
