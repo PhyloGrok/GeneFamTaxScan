@@ -17,3 +17,4 @@ Scripts and framework for evaluating annotation errors for user-selected gene fa
 7. Retrieve *Non-RefSeq* Genome, Protein accessions from Taxonomy subset of interest.  Compare meta-stats to "Reference" sequence SD values, find sequences outside Reference ranges, or with divergent BLAST results. 
   * Retrieve child taxa from a parent node using ETE3 (use [ChildTaxaByParent.py](../master/ChildTaxaByParent.py)).
   * Make a comparative heuristic, Protein Slen vs Assembly quality - between and within taxon parent groups, RefSeq vs non-RefSeqs, Assembly vs. Protein stats.
+8. Visualize sequence comparisons ([NCBI Genome Workbench](https://www.ncbi.nlm.nih.gov/tools/gbench/)).
