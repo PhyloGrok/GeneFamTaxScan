@@ -8,10 +8,20 @@ Scripts and framework for evaluating annotation errors for user-selected gene fa
 
 # Steps:
 
-1. Retrieve table (.csv) of Assembly stats from a specified Higher Taxa, obtain basic stats with R: ([AssemblyStatsFromTaxa.sh](../master/AssemblyStatsFromTaxa.sh))
-```bash AssemblyStatsFromTaxa.sh <NCBI tax id>``` (Example taxid 9443 -- primates)
+1. Retrieve table (.csv) of Assembly stats from a specified Higher Taxa: ([AssemblyStatsFromTaxa.sh](../master/AssemblyStatsFromTaxa.sh))
 
--> ([AssemblyStats.csv](../master/AssemblyStats.csv)) -> Stats analysis ([AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)) -> prelim Boxplots ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md)).
+```bash AssemblyStatsFromTaxa.sh <NCBI tax id>``` 
+
+Example taxid 9443 -- primates
+
+Output Example: ([AssemblyStats.csv](../master/AssemblyStats.csv))
+
+2.  Stats analysis ([AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)) 
+
+```R 
+> 
+
+-> prelim Boxplots ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md)).
 2. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh)) -> ([ProtStats.csv](../master/ProtStats.csv)) -> Stats analysis (ANOVA) ([ProtStatsCompare.R](../master/ProtStatsCompare.R)) -> ANOVA Results ([ProtStatsResults.md](../master/ProtStatsResults.md)), and identification of irregular Protein seqs ([Prot_Abnormals.csv](../master/Prot_Abnormals.csv)).
 3. Retrieve Gene .fastas for a given HomologeneID, by retreiving sequence using chr_start,chr_stop positions. (use [GeneFastaFromHomlogene.sh](../master/GeneFastaFromHomologene.sh))
 4. Retrieve Protein .fastas of given GeneIDs with associated RefSeq genomes. (use [ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
