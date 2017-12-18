@@ -26,14 +26,14 @@ Output Example:  ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md))
 
 ```bash ProtStatsFromGeneID.sh```
 
-Example gene group ortholog_gene_29102 (Droshas), txid9989 (Vertebrates)
+Example gene group ortholog_gene_29102 (Droshas), txid9989 (Rodents)
 
 Output Example: ([ProtStats.csv](../master/ProtStats.csv))
 
 ### 4. Protein Stats analysis ([ProtStatsCompare.R](../master/ProtStatsCompare.R))
 ```Rscript ProtStatsCompare.R```
 
-Output Example - Graphs:([ProtStatsResults.md](../master/ProtStatsResults.md)), list of Protein seqs outside standard deviation ranges: ([Prot_Abnormals.csv](../master/Prot_Abnormals.csv)).
+Output Example (Rodents/Primates) - Graphs:([ProtStatsResults.md](../master/ProtStatsResults.md)), list of Protein seqs outside standard deviation ranges: ([Prot_Abnormals.csv](../master/Prot_Abnormals.csv)).
 
 ### 5. Retrieve Gene .fastas for a given HomologeneID, by retreiving sequence using chr_start,chr_stop positions. (use [GeneFastaFromHomlogene.sh](../master/GeneFastaFromHomologene.sh))
 ### 6. Retrieve Protein .fastas of given GeneIDs with associated RefSeq genomes. (use [ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
