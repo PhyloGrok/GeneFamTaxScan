@@ -16,7 +16,7 @@ Example taxid 9443 -- primates
 
 Output Example: ([AssemblyStats.csv](../master/AssemblyStats.csv))
 
-### 2.  Stats analysis ([AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)) 
+### 2.  Assembly Stats analysis ([AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)) 
 
 ``` Rscript AssemblyStatsCompare.R ```
 
