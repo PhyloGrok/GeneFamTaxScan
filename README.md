@@ -22,7 +22,13 @@ Output Example: ([AssemblyStats.csv](../master/AssemblyStats.csv))
 
 Output Example:  ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md))
 
-### 3. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh)) -> ([ProtStats.csv](../master/ProtStats.csv)) -> Stats analysis (ANOVA) ([ProtStatsCompare.R](../master/ProtStatsCompare.R)) -> ANOVA Results ([ProtStatsResults.md](../master/ProtStatsResults.md)), and identification of irregular Protein seqs ([Prot_Abnormals.csv](../master/Prot_Abnormals.csv)).
+### 3. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh))
+
+```bash ProtStatsFromGeneID.sh```
+
+Example 
+
+-> ([ProtStats.csv](../master/ProtStats.csv)) -> Stats analysis (ANOVA) ([ProtStatsCompare.R](../master/ProtStatsCompare.R)) -> ANOVA Results ([ProtStatsResults.md](../master/ProtStatsResults.md)), and identification of irregular Protein seqs ([Prot_Abnormals.csv](../master/Prot_Abnormals.csv)).
 ### 4. Retrieve Gene .fastas for a given HomologeneID, by retreiving sequence using chr_start,chr_stop positions. (use [GeneFastaFromHomlogene.sh](../master/GeneFastaFromHomologene.sh))
 ### 5. Retrieve Protein .fastas of given GeneIDs with associated RefSeq genomes. (use [ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
 ### 6. Retrieve RefSeq Assembly .gz files for taxa of interest. (see [AssemblyRefseqFastasByTax.sh](../master/AssemblyRefseqFastasByTax.sh))
