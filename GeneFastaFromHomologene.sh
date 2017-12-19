@@ -3,7 +3,7 @@
 #!/bin/bash
 outf="drosha.fasta"
 echo -n "" > $outf
-geneids=$(esearch -db homologene -query "8293" | esummary | xtract -pattern DocumentSummary -element GeneID | tr "\t" ",")
+geneids=$(esearch -db homologene -query "$1" | esummary | xtract -pattern DocumentSummary -element GeneID | tr "\t" ",")
 
 for i in $(esearch -db gene -query "$geneids" | efetch -format docsum | xtract -pattern DocumentSummary -element GenomicInfoType/ChrAccVer GenomicInfoType/ChrStart GenomicInfoType/ChrStop | tr "\t" ",");
         do
