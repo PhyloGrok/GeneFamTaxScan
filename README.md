@@ -18,13 +18,13 @@ Output Example: ([AssemblyStats.csv](../master/AssemblyStats.csv))
 
 ### 2.  Assembly Stats analysis ([AssemblyStatsCompare.R](../master/AssemblyStatsCompare.R)) 
 
-``` Rscript AssemblyStatsCompare.R ```
+```Rscript AssemblyStatsCompare.R ```
 
 Output Example:  ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md))
 
 ### 3. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh))
 
-```bash ProtStatsFromGeneID.sh```
+```bash ProtStatsFromGeneID.sh <NCBI Gene Ortholog Id>  <NCBI tax id>```
 
 Example gene group ortholog_gene_29102 (Droshas), txid9989 (Rodents)
 
