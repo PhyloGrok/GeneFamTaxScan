@@ -6,7 +6,7 @@ library(ggplot2)
 
 ContigCount <- ggplot(AStats, aes(RefSeq_category, contig_count)) +
 geom_boxplot() + scale_y_log10()
-CongitCount
+ContigCount
 
 AssemblyLength <- ggplot(AStats, aes(RefSeq_category, total_length)) +
 geom_boxplot() + scale_y_log10()
