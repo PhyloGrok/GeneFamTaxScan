@@ -39,9 +39,15 @@ Output Example (Rodents/Primates) - Graphs:([ProtStatsResults.md](../master/Prot
 ```bash GeneFastaFromHomolog.sh <NCBI Homologene uid>```
 
 ### 6. Retrieve Protein .fastas of given GeneIDs with associated RefSeq genomes. (use [ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
+```bash ProtFastaFromGene.sh <NCBI Gene uid>```
+
 ### 7. Retrieve RefSeq Assembly .gz files for taxa of interest. (see [AssemblyRefseqFastasByTax.sh](../master/AssemblyRefseqFastasByTax.sh))
+```bash AssemblyRefseqFastasByTax.sh <NCBI taxid>```
+
 ### 8. Make BLAST databases from Gene .fastas, RefSeq Protein .fastas, RefSeq Assembly .gz.
+
 ### 9. Retrieve *Non-RefSeq* Genome, Protein accessions from Taxonomy subset of interest.  Compare meta-stats to "Reference" sequence SD values, find sequences outside Reference ranges, or with divergent BLAST results. 
   * Retrieve child taxa from a parent node using ETE3 (use [ChildTaxaByParent.py](../master/ChildTaxaByParent.py)).
   * Make a comparative heuristic, Protein Slen vs Assembly quality - between and within taxon parent groups, RefSeq vs non-RefSeqs, Assembly vs. Protein stats.
+
 ### 10. Visualize sequence comparisons ([NCBI Genome Workbench](https://www.ncbi.nlm.nih.gov/tools/gbench/)).
