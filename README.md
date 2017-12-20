@@ -33,7 +33,9 @@ Example gene 29102 (Droshas), 9989 (Rodents)
 Output Example: ([ProtStats.csv](../master/ProtStats.csv))
 
 ### 4. Protein Stats analysis ([ProtStatsCompare.R](../master/ProtStatsCompare.R), reads output from ProtStatsFromGeneID.sh)
-```Rscript ProtStatsCompare.R```
+```Rscript ProtStatsCompare.R <txid 1> <txid 2> <NCBI Gene Ortholog Id>```
+
+** Takes output from two different taxa (assuming same orthology group) and compares them
 
 Output Example (Rodents/Primates) - Graphs:([ProtStatsResults.md](../master/ProtStatsResults.md)), list of Protein seqs outside standard deviation ranges: ([Prot_Abnormals.csv](../master/Prot_Abnormals.csv)).
 
