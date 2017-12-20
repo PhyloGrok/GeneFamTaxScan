@@ -12,7 +12,7 @@ Scripts and framework for evaluating annotation errors for user-selected gene fa
 
 ```bash AssemblyStatsFromTaxa.sh <NCBI tax id>``` 
 
-Example taxid9443 (primates)
+Example 9443 (primates)
 
 Output Example: ([AssemblyStats.csv](../master/AssemblyStats.csv))
 
@@ -26,7 +26,7 @@ Output Example:  ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md))
 
 ```bash ProtStatsFromGeneID.sh <NCBI Gene Ortholog Id>  <NCBI tax id>```
 
-Example gene group ortholog_gene_29102 (Droshas), txid9989 (Rodents)
+Example gene 29102 (Droshas), 9989 (Rodents)
 
 Output Example: ([ProtStats.csv](../master/ProtStats.csv))
 
