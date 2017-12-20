@@ -42,6 +42,8 @@ Output Example (Rodents/Primates) - Graphs:([ProtStatsResults.md](../master/Prot
 
 Example ```bash GeneFastaFromHomologene.sh Drosha 8293```
 
+** Note, Gene Orthologs only extends through vertebrates. Homologene has some limited coverage in invertebrate model organisms.  
+
 ### 6. Retrieve Protein .fastas of given GeneIDs with associated RefSeq genomes. ([ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
 ```bash ProtFastaFromGene.sh <NCBI Gene uid>```
 
