@@ -20,7 +20,11 @@ Output Example: ([AssemblyStats.csv](../master/AssemblyStats.csv))
 
 ```Rscript AssemblyStatsCompare.R ```
 
+Produces a viewable .pdf called Rplots.pdf
+
 Output Example:  ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md))
+
+
 
 ### 3. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh))
 
