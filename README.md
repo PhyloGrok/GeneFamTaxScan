@@ -24,8 +24,6 @@ Produces a viewable .pdf called Rplots.pdf
 
 Output Example:  ([AssemblyStatsGraphs.md](../master/AssemblyStatsGraphs.md))
 
-
-
 ### 3. Retrieve table (.csv) of Protein stats for a specified gene ortholog group: ([ProtStatsFromGeneID.sh](../master/ProtStatsFromGeneID.sh))
 
 ```bash ProtStatsFromGeneID.sh <NCBI Gene Ortholog Id>  <NCBI tax id>```
@@ -40,7 +38,9 @@ Output Example: ([ProtStats.csv](../master/ProtStats.csv))
 Output Example (Rodents/Primates) - Graphs:([ProtStatsResults.md](../master/ProtStatsResults.md)), list of Protein seqs outside standard deviation ranges: ([Prot_Abnormals.csv](../master/Prot_Abnormals.csv)).
 
 ### 5. Retrieve Gene .fastas for a given Homologene uid, (pulls gene sequence from Assembly using chr_start,chr_stop positions)([GeneFastaFromHomlogene.sh](../master/GeneFastaFromHomologene.sh))
-```bash GeneFastaFromHomolog.sh <NCBI Homologene uid>```
+```bash GeneFastaFromHomologene.sh <Family name> <NCBI Homologene uid>```
+
+Example ```bash GeneFastaFromHomologene.sh Drosha 8293```
 
 ### 6. Retrieve Protein .fastas of given GeneIDs with associated RefSeq genomes. ([ProtFastaFromGene.sh](../master/ProtFastaFromGene.sh))
 ```bash ProtFastaFromGene.sh <NCBI Gene uid>```
