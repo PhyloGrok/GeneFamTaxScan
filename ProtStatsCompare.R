@@ -7,10 +7,10 @@ y <- as.integer(args[3])
 PStats <- read.csv(orthology_$y_$x.csv)
 PStats1 <- read.csv(orthology_$y_$r.csv)
 
-###Input variables CODE have not been tested
-
-PStats <- read.csv("DroshaPrimateStats.txt")
-PStats1 <- read.csv("DroshaRodentStats.txt")
+###Input variables code not been tested
+#ie.
+#PStats <- read.csv("DroshaPrimateStats.txt")
+#PStats1 <- read.csv("DroshaRodentStats.txt")
 
 library(ggplot2)
 
