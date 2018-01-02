@@ -1,4 +1,13 @@
 ##ReadOut ANOVA stats between taxa for a given geneID
+args <- commandArgs(TRUE)
+r <- as.integer(args[1])
+x <- as.integer(args[2])
+y <- as.integer(args[3])
+
+PStats <- read.csv(orthology_$y_$x.csv)
+PStats1 <- read.csv(orthology_$y_$r.csv)
+
+###Input variables CODE have not been tested
 
 PStats <- read.csv("DroshaPrimateStats.txt")
 PStats1 <- read.csv("DroshaRodentStats.txt")
